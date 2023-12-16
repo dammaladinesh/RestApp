@@ -1,0 +1,288 @@
+{
+  "a": [
+    {
+      "apple": "5mins"
+    },
+    {
+      "avocado toast": "10mins"
+    },
+    {
+      "almond butter": "5mins"
+    }
+  ],
+  "b": [
+    {
+      "burger": "15mins"
+    },
+    {
+      "burrito": "12mins"
+    },
+    {
+      "banana bread": "20mins"
+    }
+  ],
+  "c": [
+    {
+      "pizza": "20mins"
+    },
+    {
+      "pasta": "18mins"
+    },
+    {
+      "chatmasala": "15mits"
+    }
+  ],
+  "d": [
+    {
+      "donuts": "15mins"
+    },
+    {
+      "dumplings": "10mins"
+    },
+    {
+      "deviled eggs": "12mins"
+    }
+  ],
+  "e": [
+    {
+      "egg salad": "10mins"
+    },
+    {
+      "enchiladas": "25mins"
+    },
+    {
+      "escargot": "15mins"
+    }
+  ],
+  "f": [
+    {
+      "french fries": "15mins"
+    },
+    {
+      "fried rice": "20mins"
+    },
+    {
+      "fajitas": "18mins"
+    }
+  ],
+  "g": [
+    {
+      "grilled cheese": "8mins"
+    },
+    {
+      "gyro": "15mins"
+    },
+    {
+      "garlic bread": "12mins"
+    }
+  ],
+  "h": [
+    {
+      "hamburger": "15mins"
+    },
+    {
+      "hot dog": "10mins"
+    },
+    {
+      "hummus": "5mins"
+    }
+  ],
+  "i": [
+    {
+      "ice cream": "5mins"
+    },
+    {
+      "Indian curry": "25mins"
+    },
+    {
+      "italian sub": "12mins"
+    }
+  ],
+  "j": [
+    {
+      "jambalaya": "30mins"
+    },
+    {
+      "jalapeno poppers": "15mins"
+    },
+    {
+      "jello": "5mins"
+    }
+  ],
+  "k": [
+    {
+      "kale salad": "10mins"
+    },
+    {
+      "kung pao chicken": "20mins"
+    },
+    {
+      "kiwi": "5mins"
+    }
+  ],
+  "l": [
+    {
+      "lasagna": "25mins"
+    },
+    {
+      "lobster bisque": "30mins"
+    },
+    {
+      "lemonade": "5mins"
+    }
+  ],
+  "m": [
+    {
+      "macaroni and cheese": "15mins"
+    },
+    {
+      "miso soup": "10mins"
+    },
+    {
+      "mango": "5mins"
+    }
+  ],
+  "n": [
+    {
+      "nachos": "15mins"
+    },
+    {
+      "noodle soup": "18mins"
+    },
+    {
+      "nutella sandwich": "5mins"
+    }
+  ],
+  "o": [
+    {
+      "omelette": "10mins"
+    },
+    {
+      "onion rings": "12mins"
+    },
+    {
+      "orange chicken": "20mins"
+    }
+  ],
+  "p": [
+    {
+      "pancakes": "10mins"
+    },
+    {
+      "pad thai": "15mins"
+    },
+    {
+      "pineapple pizza": "20mins"
+    }
+  ],
+  "q": [
+    {
+      "quesadilla": "12mins"
+    },
+    {
+      "quiche": "25mins"
+    },
+    {
+      "quinoa salad": "15mins"
+    }
+  ],
+  "r": [
+    {
+      "ramen": "18mins"
+    },
+    {
+      "risotto": "20mins"
+    },
+    {
+      "roast beef sandwich": "12mins"
+    }
+  ],
+  "s": [
+    {
+      "spaghetti": "18mins"
+    },
+    {
+      "sushi": "15mins"
+    },
+    {
+      "shrimp scampi": "20mins"
+    }
+  ],
+  "t": [
+    {
+      "tacos": "15mins"
+    },
+    {
+      "tiramisu": "25mins"
+    },
+    {
+      "tomato soup": "12mins"
+    }
+  ],
+  "u": [
+    {
+      "udon noodles": "20mins"
+    },
+    {
+      "ugali": "25mins"
+    },
+    {
+      "unicorn cake": "30mins"
+    }
+  ],
+  "v": [
+    {
+      "vegetable curry": "20mins"
+    },
+    {
+      "vanilla ice cream": "5mins"
+    },
+    {
+      "vindaloo": "25mins"
+    }
+  ],
+  "w": [
+    {
+      "waffles": "10mins"
+    },
+    {
+      "watermelon salad": "15mins"
+    },
+    {
+      "wonton soup": "18mins"
+    }
+  ],
+  "x": [
+    {
+      "xiao long bao": "20mins"
+    },
+    {
+      "xocolatl": "5mins"
+    },
+    {
+      "xylocarp salad": "15mins"
+    }
+  ],
+  "y": [
+    {
+      "yogurt parfait": "5mins"
+    },
+    {
+      "yakitori": "15mins"
+    },
+    {
+      "yellow curry": "20mins"
+    }
+  ],
+  "z": [
+    {
+      "ziti": "18mins"
+    },
+    {
+      "zuppa toscana": "25mins"
+    },
+    {
+      "zabaglione": "15mins"
+    }
+  ]
+}

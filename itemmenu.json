@@ -4,10 +4,10 @@
       "apple": "5mins"
     },
     {
-      "avocado toast": "10mins"
+      "avocado_toast": "10mins"
     },
     {
-      "almond butter": "5mins"
+      "almond_butter": "5mins"
     }
   ],
   "b": [
@@ -18,7 +18,7 @@
       "burrito": "12mins"
     },
     {
-      "banana bread": "20mins"
+      "banana_bread": "20mins"
     }
   ],
   "c": [
@@ -40,12 +40,12 @@
       "dumplings": "10mins"
     },
     {
-      "deviled eggs": "12mins"
+      "deviled_eggs": "12mins"
     }
   ],
   "e": [
     {
-      "egg salad": "10mins"
+      "egg_salad": "10mins"
     },
     {
       "enchiladas": "25mins"
@@ -56,10 +56,10 @@
   ],
   "f": [
     {
-      "french fries": "15mins"
+      "french_fries": "15mins"
     },
     {
-      "fried rice": "20mins"
+      "fried_rice": "20mins"
     },
     {
       "fajitas": "18mins"
@@ -67,13 +67,13 @@
   ],
   "g": [
     {
-      "grilled cheese": "8mins"
+      "grilled_cheese": "8mins"
     },
     {
       "gyro": "15mins"
     },
     {
-      "garlic bread": "12mins"
+      "garlic_bread": "12mins"
     }
   ],
   "h": [
@@ -81,7 +81,7 @@
       "hamburger": "15mins"
     },
     {
-      "hot dog": "10mins"
+      "hot_dog": "10mins"
     },
     {
       "hummus": "5mins"
@@ -89,13 +89,13 @@
   ],
   "i": [
     {
-      "ice cream": "5mins"
+      "ice_cream": "5mins"
     },
     {
-      "Indian curry": "25mins"
+      "Indian_curry": "25mins"
     },
     {
-      "italian sub": "12mins"
+      "italian_sub": "12mins"
     }
   ],
   "j": [
@@ -103,7 +103,7 @@
       "jambalaya": "30mins"
     },
     {
-      "jalapeno poppers": "15mins"
+      "jalapeno_poppers": "15mins"
     },
     {
       "jello": "5mins"
@@ -111,10 +111,10 @@
   ],
   "k": [
     {
-      "kale salad": "10mins"
+      "kale_salad": "10mins"
     },
     {
-      "kung pao chicken": "20mins"
+      "kung pao_chicken": "20mins"
     },
     {
       "kiwi": "5mins"
@@ -125,7 +125,7 @@
       "lasagna": "25mins"
     },
     {
-      "lobster bisque": "30mins"
+      "lobster_bisque": "30mins"
     },
     {
       "lemonade": "5mins"

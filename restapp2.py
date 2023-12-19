@@ -1,28 +1,46 @@
 import json
-
+import pandas as pd
+from fuzzywuzzy import process
 
 def lstitmemenu(func):
     def wrapper(*args, **kwargs):
-        print(f"the number of items in the menu are {func(*args, **kwargs)}")
+        # print(f"the number of items in the menu are {func(*args, **kwargs)}")
         start = True
         usermenu = []
         while start:
             enter_aplpha = input('enter_alpha = ').lower()
             # print(func(data).items())
             if enter_aplpha in list(func(*args, **kwargs).keys()):
-                print(func(*args, **kwargs)[enter_aplpha])
-                storemenu = input("Enter the item menu in list = ")
+                # df = pd.DataFrame(func(*args, **kwargs)[enter_aplpha])
+                df = pd.DataFrame([(list(d.keys())[0], list(d.values())[0]) for d in func(*args, **kwargs)[enter_aplpha]], columns=['Dish', 'Cooking Time'])
+                # df = df.fillna('')
+                print(df)
+                # Print only the column headers
+                column_headers = df.columns
+                storemenu = input(f"Enter the item menu in {column_headers[0]} = ")
                 keys_list = [list(item.keys())[0] for item in func(*args, **kwargs)[enter_aplpha]]
                 if storemenu in keys_list:
                     usermenu.append(storemenu)
                 else:
                     print("Item no exisitn in the list...")
-                    while len(keys_list):
+                    countlen = len(keys_list)
+                    print(countlen)
+                    while countlen:
                         storemenu = input("Enter the item menu in list = ")
-                        print("Incorrect name of item no existing")
+                        
                         if storemenu in keys_list:
                             usermenu.append(storemenu)
                             keys_list.clear()
+                            break
+                        else:
+                            print("Incorrect name of item no existing")
+                            # Find the closest match
+                            closest_match, similarity_score = process.extractOne(storemenu, keys_list)
+
+                            # Check if the similarity score is above a certain threshold (adjust as needed)
+                            threshold = 80
+                            if similarity_score >= threshold:
+                                print(f"Are you Looking For: {closest_match}")
                     pass
             else:
                 print("Item not found")
@@ -72,4 +90,25 @@ def addmenu(itemname, time):
 
     return data
 
-addmenu("chatmasala", "15mits")
+# addmenu("chatmasala", "15mits")
+# addmenu(None, None)
+def getmenulist():
+    json_file_path = '/media/dammala/software/dammala_file/python_training/trainingfile/resturentapp/itemmenu.json'
+
+    with open(json_file_path, 'r') as iteminfo:
+        try:
+            data = json.load(iteminfo)
+            # pd_read = pd.read_json(data)
+            # Convert the nested JSON data into a flat structure
+            flat_data = [(letter, dish, time) for letter, dishes in data.items() for dish_info in dishes for dish, time in dish_info.items()]
+
+            # Create a DataFrame
+            df = pd.DataFrame(flat_data, columns=["Letter", "Dish", "Cooking Time"])
+
+            return df
+        except json.decoder.JSONDecodeError:
+            # Handle the case when the file is empty or not valid JSON
+            data = {}
+            return data
+
+# print(getmenulist())

@@ -1,4 +1,5 @@
 import json
+from tables import table_info
 
 restname = "Welcome to the A1 restaurant"
 
@@ -28,8 +29,16 @@ def write_user_data(user_data):
 
 def login_page(user_name, user_pass):
     user_data = read_user_data()
-    if user_name in list(user_data.keys()) and user_pass in list(user_data.values()):
-        print("Select the table")
+    try:
+        if user_name in list(user_data.keys()) and user_pass in list(user_data.values()):
+            print(f"Hi {user_name} Wellcome to the A1 Restaurants...!")
+            print(table_info())
+        else:
+            print(f"Invalid user cred {user_name}")
+            userlogin()
+    except Exception as error:
+        return f"{error}"
+    
 
 
 def userlogin():
